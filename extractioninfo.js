@@ -57,8 +57,6 @@ supprimerPoint(toutlesadresseprivee)
 console.log("voici les adresse mail priver trouver:"+toutlesadresseprivee)
 
 //trouver le nombre des mots en Excluant les articles, pronon personnel et relatif
-let listeMotsRestreints = ['le', 'la', 'les', 'des', 'du', 'un', 'une', '+243', '@', 'je', 'tu', 'il', 'elle', 'nous', 'vous', 'elles', 'ils', 'à', 'qui']
-
    let  suppression=phrase.filter(word=>!/le|\la\|les|des|du|un|une|243|@|je|tu|il|elle|nous|vous|elles|ils|à|qui/.test(word))
    suppression=suppression.length
 
